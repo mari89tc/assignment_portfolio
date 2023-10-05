@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Del b</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style_b.css" />
+  </head>
+  <body>
+    <nav>
+      <a class="logo" href="index.html">Logo</a>
+      <div>
+        <ul>
+          <li><a href="index.html">Forside</a></li>
+          <li><a href="del_a.html">Del A</a></li>
+          <li><a href="del_b.html">Del B</a></li>
+          <li><a href="del_c.html">Del C</a></li>
+          <li><a href="del_d.html">Del D</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="intro">
+      <h1>Del B</h1>
+      <p>
+        I Del B valgte jeg at bygge layoutet op med grid, så når sitet er mindre end 515px så er gridet 1fr, hvorimod hvis det er over har jeg et grid med 4 kolonner og 2 rækker. Her har jeg så anvendt @container for at lave særskilte regler for de
+        forskellige frames.
+      </p>
+    </div>
+    <section class="card_wrapper">
+      <div class="wrap">
+        <div class="card_profile">
+          <div class="head_profile">
+            <img src="img/profile2.png" alt="profile 2" />
+            <div>
+              <h5>Report for</h5>
+              <h2>Cody Frye</h2>
+            </div>
+          </div>
+          <div class="radio_but">
+            <label class="container"><input type="radio" /> <span class="checkmark"></span> Daily </label>
+            <label class="container">
+              <input type="radio" />
+              <span class="checkmark"></span> Weekly
+            </label>
+
+            <label class="container">
+              <input type="radio" />
+              <span class="checkmark"></span> Monthly
+            </label>
+          </div>
+        </div>
+        <div class="card_timer">
+          <h5>Work</h5>
+          <div>
+            <h2>24hrs</h2>
+            <p>Last Week: 26hrs</p>
+          </div>
+        </div>
+        <div class="card_timer">
+          <h5>Exercise</h5>
+          <div>
+            <h2>5hrs</h2>
+            <p>Last Week: 4.5hrs</p>
+          </div>
+        </div>
+        <div class="card_timer">
+          <h5>Play</h5>
+          <div>
+            <h2>10hrs</h2>
+            <p>Last Week: 8hrs</p>
+          </div>
+        </div>
+        <div class="card_timer">
+          <h5>Social</h5>
+          <div>
+            <h2>6.5hrs</h2>
+            <p>Last Week: 4hrs</p>
+          </div>
+        </div>
+        <div class="card_timer">
+          <h5>Study</h5>
+          <div>
+            <h2>12.5hrs</h2>
+            <p>Last Week: 14hrs</p>
+          </div>
+        </div>
+        <div class="card_timer">
+          <h5>Self Care</h5>
+          <div>
+            <h2>3hrs</h2>
+            <p>Last Week: 2hrs</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
