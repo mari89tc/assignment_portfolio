@@ -64,7 +64,12 @@ nav {
   align-items: center;
   background-color: var(--secondary-color-1);
 }
-
+.logo {
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  background-color: var(--accent-color-1);
+}
 nav a {
   font-family: "Poppins", sans-serif;
   font-size: var(--font-sm);
