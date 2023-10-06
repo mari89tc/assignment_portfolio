@@ -1,6 +1,6 @@
 .card_wrapper {
   container: card-wrap/inline-size;
-  margin: 5%;
+  margin: 2%;
 }
 .intro {
   margin: 40px;
@@ -13,7 +13,7 @@
   }
   @container card-wrap (width <515px) {
     gap: 20px;
-    margin: 20px;
+    margin: 10px;
     display: grid;
     grid-template-columns: 1fr;
     .radio_but {

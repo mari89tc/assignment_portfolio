@@ -5,9 +5,9 @@
   margin: 40px;
   width: 75%;
 }
-.head_section {
+/* .head_section {
   position: relative;
-}
+} */
 .pic_grid {
   display: flex;
 }
@@ -21,17 +21,17 @@
   height: 850px;
 }
 h2 {
-  font-size: 5rem;
-  width: 800px;
-  line-height: 4rem;
+  font-size: 3.5rem;
+  width: 500px;
+  line-height: 3rem;
   position: absolute;
-  top: 250px;
-  right: 250px;
+  top: 300px;
+  right: 300px;
 }
 h5 {
   position: absolute;
   top: 450px;
-  right: 200px;
+  right: 100px;
   font-size: 1.5rem;
   line-height: 2rem;
   width: 550px;
@@ -79,34 +79,35 @@ button {
     }
   }
   @container wrap (width <515px) {
-    & .head_section {
-      display: grid;
-      grid-template-columns: 1fr;
+    .indhold {
+      position: relative;
+      margin: 20px;
     }
     .picture-1 {
       width: 550px;
       height: 350px;
     }
     & h2 {
-      font-size: 3rem;
-      width: 450px;
-      line-height: 3rem;
-      position: absolute;
-      top: 150px;
-      right: 10px;
+      font-size: 2rem;
+      width: 300px;
+      line-height: 1.5rem;
+      position: relative;
+      margin-bottom: 20px;
+      top: 0;
+      right: 0;
     }
     & h5 {
       font-size: 1rem;
-      line-height: 1.5rem;
-      width: 400px;
-      position: absolute;
-      top: 270px;
-      right: 50px;
+      line-height: 1.2rem;
+      width: 300px;
+      position: relative;
+      top: 0;
+      right: 0;
     }
     & button {
-      position: absolute;
-      top: 450px;
-      right: 300px;
+      position: relative;
+      top: 0;
+      right: 0;
     }
   }
 }
